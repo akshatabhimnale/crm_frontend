@@ -1,0 +1,87 @@
+.sidebar {
+  width: 13%;
+  background-color: #01eec2;
+  color: #000;
+  height: 100vh;
+  padding: 20px;
+  border-radius: 16px 0 0 16px;
+  font-family: 'Segoe UI', sans-serif;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.sidebar nav{
+  margin-top: 20%;
+}
+.logo {
+    width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-link {
+  background: none;
+  border: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  width: 100%;
+  padding: 8px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.main-link:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.main-link.active {
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 13px;
+  color: #000;
+  margin: 20px 0 8px 12px;
+}
+
+.sub-menu {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.sub-menu li {
+  margin: 6px 0;
+}
+
+.sub-menu a {
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px 0;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.sub-menu a:hover {
+  color: white;
+}
+
+.chevron {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.chevron.rotate {
+  transform: rotate(180deg);
+}
